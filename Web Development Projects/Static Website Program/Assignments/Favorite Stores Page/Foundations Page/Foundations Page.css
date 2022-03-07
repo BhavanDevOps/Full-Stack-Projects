@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.top-container {
+    background-image: url("https://learning.ccbp.in/crash-course/web-programming/0c6644e0-75be-4ef4-86b4-98b961439a01");
+    background-size: cover;
+}
+
+.bottom-container {
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    background-color: #ffffff;
+}
+
+.text-container {
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.heading {
+    color: #323f4b;
+    font-family: "Roboto";
+    font-size: 30px;
+    font-weight: bold;
+
+}
+
+.description {
+    color: #7b8794;
+    font-family: "Roboto";
+    font-size: 18px;
+}
+
+
+.txt-container {
+    width: 96px;
+    margin: 5px;
+    padding: 10px;
+
+}
+
+.title {
+    text-align: center;
+    color: #323f4b;
+    font-family: "Roboto";
+}

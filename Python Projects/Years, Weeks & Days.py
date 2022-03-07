@@ -1,0 +1,9 @@
+number_of_days=int(input())
+years=number_of_days/365
+Years=int(years)
+weeks=(number_of_days%365)/7
+Weeks=int(weeks)
+days=(number_of_days%365)%7
+print(Years)
+print(Weeks)
+print(days)

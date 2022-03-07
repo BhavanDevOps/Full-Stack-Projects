@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Bree Serif:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.top-container {
+    background-image: url("https://assets.ccbp.in/frontend/static-website/flats-list-bg.png");
+    background-size: cover;
+    height: 40vh;
+}
+
+.card-container {
+    background-color: #ffffff;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+.card-text-container {
+    text-align: center;
+    padding: 30px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.avenue-name {
+    color: #f19116;
+    font-family: "Bree Serif";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.description {
+    color: #7b8794;
+    font-family: "Bree Serif";
+    font-size: 15px;
+}
+
+.button {
+    color: #ffffff;
+    background-color: #f19116;
+    border-width: 0px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+.bg-container {
+    background-color: #222222;
+    height: 100vh;
+}
+
+.list-card-container {
+    margin: 10px;
+}
+
+
+.heading {
+    color: #f19116;
+    font-family: "Bree Serif";
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
+
+.types-container {
+    background-color: #ffffff;
+    margin: 20px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+
+}
+
+.types-text-container {
+    text-align: center;
+    margin-left: 5px;
+    padding: 5px;
+}
+
+.room-name {
+    color: #0f0e46;
+    font-family: "Bree Serif";
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.room-description {
+    color: #6c6b70;
+    font-family: "Bree Serif";
+    font-size: 20px;
+}
+
+.room-image {
+    height: 170px;
+    width: 150px;
+}
+
+
+.room-image {
+    height: 30vh;
+    width: 90vw;
+}
+
+
+.room-card-container {
+    background-color: #222222;
+}
+
+
+.room-price {
+    color: #f19116;
+    font-family: "Bree Serif";
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.room-address {
+    color: #ffffff;
+    font-family: "Bree Serif";
+    font-size: 20px;
+}
+
+.logo {
+    height: 10px;
+    width: 20px;
+}

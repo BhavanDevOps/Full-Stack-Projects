@@ -1,0 +1,5 @@
+given_string=input()
+list_string=given_string.split(",")
+list_string=sorted(list_string)
+smallest=min(list_string)
+print(smallest)

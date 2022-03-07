@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="sectionMyProjectsHome">
+        <div class="my-projects-home-page">
+            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/software-developer-img.png" class="software-developer-image" />
+            <h1 class="my-projects-heading">My projects</h1>
+            <p class="my-projects-description">These are a few of my static website projects that i have developed using HTMl,CSS and Bootstrap</p>
+            <div class="d-flex flex-row justify-content-center">
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/advanced-technologies-img.png" class="my-project-image" onclick="display('sectionAdvancedTechnologies')" />
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/hotelbg.png" class="my-project-image" onclick="display('sectionHotel')" />
+            </div>
+            <div class="d-flex flex-row justify-content-center">
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/food-img.png" class="my-project-image" onclick="display('sectionFoodOrder')" />
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/news-paper-img.png" class="my-project-image" onclick="display('sectionNews')" />
+            </div>
+        </div>
+    </div>
+    <div id="sectionAdvancedTechnologies">
+        <div class="bg-container d-flex flex-column justify-content-end">
+            <div class="card">
+                <h1 class="heading">Advanced Technologies</h1>
+                <p class="pargraph">
+                    Machinery and equipment developed from the application of scientific knowledge.
+                </p>
+                <button class="button1">Learn more</button>
+                <button class="button2 btn-primary" onclick="display('sectionMyProjectsHome')">Back</button>
+            </div>
+        </div>
+    </div>
+    <div id="sectionHotel">
+        <div class="bg-container d-flex flex-column justify-content-end">
+            <div class="card">
+                <h1 class="head">Royal Grand Hotel</h1>
+                <p class="paragraph">R K Beach Visakhapatnam</p>
+                <p1 class="head">1200/-</p1>
+            </div>
+            <div class="center">
+                <button class="button ">Book Now</button>
+                <button class="button btn-primary" onclick="display('sectionMyProjectsHome')">Back</button>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="sectionFoodOrder">
+        <div class="bg-container d-flex flex-column justify-content-end">
+            <div class="card">
+                <h1 class="card-title">Happy Meals</h1>
+                <p class="card-description">Discover the best foods over the 1,OOO restaurants</p>
+                <button class="card-button justify-content-end">Book Now</button>
+                <button class="card-button  btn-primary justify-content-end" onclick="display('sectionMyProjectsHome')">Back</button>
+            </div>
+        </div>
+    </div>
+    <div id="sectionNews">
+        <div class="bg-container d-flex flex-column justify-content-end">
+            <div class="card">
+                <p class="p">NEWS OF THE DAY</p>
+                <h1 class="head"> All educational institutions in assam to reopen from November2</h1>
+                <p class="paragraph">Uttar Pradesh's Gautam Buddh Nagar recorded 107 new Covid-19 cases on saturday, pushing
+                    the districts infection tally to15,803, offical data showed. The number of active cases came down
+                    further to 1,384 from 1,477 on friday and 1,523 on thursday ,according to the data released
+                    by the UP Health Department for a 24-hour period</p>
+                <button class="button">Read more</button>
+                <button class="button btn-primary" onclick="display('sectionMyProjectsHome')">Back</button>
+
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+</body>
+
+</html>

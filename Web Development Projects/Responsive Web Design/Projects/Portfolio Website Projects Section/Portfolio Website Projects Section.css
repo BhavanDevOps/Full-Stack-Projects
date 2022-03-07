@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.bg-container {
+    background-color: #3e4c59;
+    height: 150vh;
+    width: 100vw;
+}
+
+.heading {
+    color: #cced00;
+    font-family: "Roboto";
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.sub-heading {
+    color: white;
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.card-container {
+    background-color: #323f4b;
+    border-radius: 8px;
+}
+
+.card-caption {
+    color: #9aa5b1;
+    font-family: "Roboto";
+    font-size: 15px;
+}
+
+.card-title {
+    color: white;
+    font-family: "Roboto";
+    font-size: 22px;
+}
+
+.card-description {
+    color: #9aa5b1;
+    font-family: "Roboto";
+    font-size: 20px;
+}
+
+.menu-item-link {
+    color: #cced00;
+    font-family: "Roboto";
+    font-size: 12px;
+}
